@@ -1,0 +1,1574 @@
+a,
+body,
+dd,
+div,
+dl,
+dt,
+em,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+img,
+label,
+legend,
+li,
+object,
+ol,
+p,
+span,
+strong,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+ul,
+video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+img {
+    color: transparent;
+    font-size: 0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td {
+    font-weight: normal;
+    vertical-align: top;
+    text-align: left;
+}
+
+hr {
+    border: 0 solid #eee;
+    border-top-width: 1px;
+    clear: both;
+    height: 0;
+}
+
+body {
+    font: 14px/28px 'Microsoft Yahei', '微软雅黑', Tahoma, Arial, Helvetica;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 19px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul {
+    list-style: disc;
+}
+
+li {
+    margin-left: 0;
+    display: list-item;
+    list-style-type: none;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #F09A2B;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+body {
+    background-color: #FAFAFA;
+    min-width: 1000px;
+}
+
+
+/* keep footer at the bottom of the page */
+
+html,
+body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+    position: relative;
+    _height: 100%;
+}
+
+#holder {
+    padding-bottom: 90px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/*here we go*/
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.solid {
+    border-top: 2px solid #F09A2B !important;
+}
+
+.radius {
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.column_name {
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.highlight {
+    color: #F09A2B !important;
+}
+
+
+/*高亮显示*/
+
+.bgc_orange {
+    background-color: #F09A2B !important;
+}
+
+
+/*背景色 橙*/
+
+.bgc_blue {
+    background-color: #63A2F2 !important;
+}
+
+
+/*背景色 蓝*/
+
+
+/*表单样式*/
+
+.input_text {
+    border: 1px solid #eee;
+    height: 24px;
+    padding: 5px;
+    width: 320px;
+    display: inline;
+}
+
+
+/*输入域样式*/
+
+td.input_select select {
+    padding: 5px;
+    border: 1px solid #eee;
+    width: 104px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+
+/*下拉列表样式*/
+
+td#state label {
+    margin-right: 10px;
+}
+
+textarea {
+    resize: vertical;
+    border: 1px solid #eee;
+}
+
+input#btn {
+    font-family: "微软雅黑";
+}
+
+
+/*表格样式*/
+
+table.format {
+    margin: 20px;
+}
+
+table.format th {
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+table.format td {
+    padding: 5px 0 20px;
+}
+
+table.format td p {
+    color: #C00;
+}
+
+
+/*表单验证*/
+
+
+/*表格样式 列表*/
+
+table.list {
+    width: 100%;
+}
+
+table.list th {
+    background-color: #F09A2B;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+table.list td {
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+
+/*表格 按钮*/
+
+table #btn {
+    background-color: #F09A2B;
+    border: none;
+    padding: 10px 0;
+    width: 120px;
+    color: #fff;
+    font-size: 1em;
+}
+
+table a#btn {
+    padding: 6px 0;
+    text-align: center;
+    display: block;
+}
+
+
+/*顶部*/
+
+#topbar {
+    text-align: right;
+    padding: 5px 0;
+    background-color: #FCFCFC;
+}
+
+#topbar a {
+    text-decoration: none;
+}
+
+#topbar .grzx {
+    background: url(../images/grzx.png) no-repeat 0 2px;
+    padding-left: 20px;
+}
+
+#topbar .xxs {
+    background-color: #F09A2B;
+    color: #fff;
+    padding: 0 5px;
+}
+
+
+/*导航菜单*/
+
+#navi {
+    height: 80px;
+    line-height: 80px;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+#menu {
+    float: right;
+    background-color: #fff;
+}
+
+#menu li {
+    float: left;
+    display: inline;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#menu li a {
+    display: block;
+    width: 130px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #FCB75D;
+    color: #fff;
+}
+
+#menu li a.cur {
+    background-color: #F09A2B;
+    color: #fff;
+}
+
+
+/*版权*/
+
+#footer {
+    height: 60px;
+    width: 100%;
+    background-color: #3C3C3A;
+    color: #eee;
+}
+
+#footer a {
+    color: #eee;
+}
+
+#copyright {
+    text-align: center;
+    padding: 15px 0;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+/*banner*/
+
+#banner {
+    position: relative;
+    overflow: hidden;
+    margin-top: -1px;
+    height: 400px;
+}
+
+
+/*#banner div{background-repeat: no-repeat;background-position: 50% 0;height: 400px !important;}*/
+
+
+/**/
+
+#banner2 {
+    width: 100%;
+    overflow: hidden;
+    margin-top: -1px;
+}
+
+#banner2 div {
+    position: relative;
+    width: 1920px;
+}
+
+
+/*自由任务 详情*/
+
+#renwu_info {
+    background-color: #fff;
+    width: 680px;
+    position: relative;
+    padding: 0 20px 20px;
+    border: 1px solid #eee;
+}
+
+#renwu_info .column_name {
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+#renwu_info #jubao {
+    color: #fff;
+    background-color: #9B9B9B;
+    padding: 0 15px;
+    float: right;
+    display: block;
+    margin: 20px 0;
+}
+
+#renwu_info .line_dec {
+    margin-top: -14px;
+    margin-left: 20px;
+    position: absolute;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+#renwu_text {
+    padding-top: 20px;
+    color: #999;
+}
+
+#renwu_text .title {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #000;
+}
+
+#renwu_text p {
+    text-indent: 2em;
+    margin-bottom: 1em;
+}
+
+#renwu_text p img {
+    display: block;
+}
+
+
+/*图片引导*/
+
+#guide {
+    margin-left: 7px;
+}
+
+#guide img {
+    padding: 9px;
+    border: 1px solid #eee;
+    margin-left: -1px;
+    margin-bottom: 15px;
+}
+
+
+/*任务按钮*/
+
+#renwu_btn {
+    text-align: center;
+    margin: 20px;
+}
+
+#renwu_btn a {
+    padding: 10px 50px;
+    color: #fff;
+    margin: 20px;
+}
+
+
+/*侧边 任务要求*/
+
+#renwu_yaoqiu {
+    width: 260px;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 738px;
+    border: 1px solid #eee;
+    border-top: 0;
+}
+
+#renwu_yaoqiu .column_name {
+    background-color: #F09A2B;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+#renwu_yaoqiu .column_name div {
+    border-left: 3px solid #fff;
+    font-size: 0.8em;
+    text-indent: 7px;
+    line-height: 1em;
+}
+
+
+/*发起人信息*/
+
+#renwu_yaoqiu #avatar {
+    padding: 7px;
+    border: 1px solid #eee;
+    float: left;
+}
+
+#originator {
+    margin-left: 120px;
+    padding: 10px 0 20px;
+    height: 80px;
+}
+
+#originator .dec {
+    background-color: #eee;
+    padding: 2px 10px;
+}
+
+#originator .usn {
+    padding-left: 10px;
+}
+
+#originator .radius {
+    margin-left: 10px;
+    background-color: #F09A2B;
+    color: #fff;
+    padding: 1px 3px;
+    font-size: 0.8em;
+}
+
+#renwu_yaoqiu .jiage {
+    text-align: center;
+    border-right: 1px solid #eee;
+    width: 120px;
+}
+
+#renwu_yaoqiu .dengji {
+    width: 120px;
+    float: right;
+    text-align: center;
+}
+
+#renwu_yaoqiu #middle {
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-top: 10px;
+}
+
+#renwu_yaoqiu #middle .num {
+    font-size: 1.5em;
+}
+
+#renwu_yaoqiu #middle .extra {
+    color: #F09A2B;
+}
+
+#renwu_yaoqiu .limit_time {
+    padding: 10px;
+}
+
+#renwu_yaoqiu .limit_time span {
+    float: right;
+}
+
+#renwu_yaoqiu .duration_time {
+    padding: 10px 10px 0;
+}
+
+
+/*用户举报内容*/
+
+#renwu_jubao {
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+#renwu_jubao table {
+    margin-left: 180px;
+}
+
+#renwu_jubao #liyou {
+    border: 1px solid #eee;
+    width: 500px;
+    height: 100px;
+    font-size: 1em;
+    padding: 5px;
+}
+
+#renwu_jubao #lianxi {
+    border: 1px solid #eee;
+    width: 500px;
+    font-size: 1em;
+    height: 18px;
+    padding: 5px;
+}
+
+#renwu_jubao #btn {
+    background-color: #F09A2B;
+    border: none;
+    padding: 10px 0;
+    width: 120px;
+    color: #fff;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+
+/*赚客上传截图*/
+
+#zhuanke_jietu .item {
+    margin: 0 0 20px 17px;
+    ;
+    position: relative;
+    display: inline;
+    float: left;
+    width: 180px;
+    height: 270px;
+}
+
+
+/*#zhuanke_jietu img{margin:0 0 20px 15px;}*/
+
+#zhuanke_jietu #btn {
+    border: none;
+    padding: 10px 0;
+    width: 120px;
+    color: #fff;
+    font-size: 1em;
+}
+
+#zhuanke_jietu label {
+    cursor: pointer;
+}
+
+#zhuanke_jietu .close {
+    width: 22px;
+    height: 22px;
+    background: url(../images/close.png) no-repeat;
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    cursor: pointer;
+}
+
+
+/*联系我们*/
+
+#lianxiwomen {
+    border: 1px solid #eee;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#lianxiwomen .column_name {
+    padding: 0 10px 20px;
+}
+
+#lianxiwomen ul {
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+#lianxiwomen ul li {
+    padding-left: 40px;
+    display: block;
+    width: 420px;
+    float: left;
+    line-height: 40px;
+}
+
+#lianxiwomen #icon0 {
+    background: url(../images/lxwm0.png) no-repeat 0 50%;
+}
+
+#lianxiwomen #icon1 {
+    background: url(../images/lxwm1.png) no-repeat 0 50%;
+}
+
+#lianxiwomen #icon2 {
+    background: url(../images/lxwm2.png) no-repeat 0 50%;
+}
+
+#lianxiwomen #icon3 {
+    background: url(../images/lxwm3.png) no-repeat 0 50%;
+}
+
+#lianxiwomen #icon4 {
+    background: url(../images/lxwm4.png) no-repeat 0 50%;
+}
+
+
+/*推广合作*/
+
+#fuwuyoushi {
+    display: block;
+    text-align: center;
+    background-color: #fff;
+}
+
+#fuwuyoushi li {
+    text-align: center;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 60px 100px;
+}
+
+#fuwuyoushi li p {
+    padding: 10px 5px 5px;
+    font-size: 1.2em;
+}
+
+#tuiguanghezuo #icons .item {
+    float: left;
+    border: 1px solid #eee;
+    border-right: none;
+    width: 124px;
+    text-align: center;
+    margin-top: -1px;
+    padding: 18px 0 12px;
+}
+
+#tuiguanghezuo #icons .item.first {
+    border-left: none;
+}
+
+#tuiguanghezuo #icons .extra {
+    float: left;
+    padding: 0;
+    width: 499px;
+}
+
+
+/*商务合作 链接*/
+
+#shangwuhezuo {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+#shangwuhezuo .radius {
+    border-radius: 30px;
+    font-size: 2em;
+    background-color: #F09A2B;
+    color: #fff;
+    padding: 10px 150px;
+}
+
+
+/*发布任务*/
+
+#faburenwu h2 {
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#faburenwu #text {
+    border: 1px solid #eee;
+    background-color: #fff;
+    height: 540px;
+    overflow: auto;
+    padding: 20px;
+}
+
+#agreement #btn {
+    background-color: #F09A2B;
+    border: none;
+    padding: 10px 0;
+    width: 280px;
+    color: #fff;
+    margin-left: 220px;
+    font-size: 1.2em;
+}
+
+
+/*子栏菜单*/
+
+#columns {
+    margin: 20px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+
+#columns li {
+    padding: 7px 10px;
+    text-align: center;
+    border: 1px solid #F09A2B;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-left: -1px;
+}
+
+#columns li a {
+    display: block;
+    color: #F09A2B;
+    font-size: 1.2em;
+}
+
+#columns li.cur {
+    background-color: #F09A2B;
+}
+
+#columns li.cur a {
+    color: #fff;
+}
+
+
+/**/
+
+#faburenwu #columns li {
+    width: 140px;
+}
+
+#faburenwu #columns li a {
+    font-size: 1em;
+}
+
+#zhanneixinxi #columns li {
+    width: 240px;
+}
+
+#renwu_guanli #columns li {
+    width: 180px;
+}
+
+#my_ziyourenwu #columns li {
+    width: 180px;
+}
+
+
+/*个人申请、企业申请*/
+
+#gerenshenqing,
+#qiyeshenqing {
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+#faburenwu table {
+    margin-left: 250px;
+}
+
+#faburenwu table th {
+    line-height: 36px;
+}
+
+#faburenwu .input_text {
+    width: 312px;
+    height: 28px;
+    border: 1px solid #ccc;
+}
+
+#faburenwu table #btn {
+    width: 322px;
+    margin-top: 10px;
+}
+
+
+/*企业申请*/
+
+#qiyeshenqing #note {
+    text-align: center;
+    border: 1px solid #F09A2B;
+    background-color: #FCF3E4;
+    color: #F09A2B;
+    padding: 5px;
+}
+
+
+/*发送短信*/
+
+#senddx {
+    padding: 5px;
+    height: 40px;
+}
+
+#dx_yzm {
+    height: 26px;
+    padding: 5px;
+    width: 50px;
+}
+
+
+/*验证码*/
+
+#gerenshenqing #yanzhengma {
+    width: 220px;
+    display: inline;
+    margin-right: 10px;
+}
+
+#gerenshenqing #randstr {
+    position: absolute;
+    cursor: pointer;
+}
+
+#gerenshenqing #btn {
+    width: 252px;
+}
+
+#gerenshenqing #loading {
+    display: none;
+    margin-left: 90px;
+}
+
+#qiyeshenqing #yanzhengma {
+    width: 220px;
+    display: inline;
+    margin-right: 10px;
+}
+
+#qiyeshenqing #randstr {
+    position: absolute;
+    cursor: pointer;
+}
+
+#qiyeshenqing #btn {
+    width: 252px;
+}
+
+#qiyeshenqing #loading {
+    display: none;
+    margin-left: 90px;
+}
+
+
+/*系统公告*/
+
+#wenzhang_liebiao {
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+#wenzhang_liebiao .list {
+    margin: 20px;
+}
+
+#wenzhang_liebiao .list li {
+    padding-left: 20px;
+    background: url(../images/dotted.png) no-repeat 0 50%;
+}
+
+
+/*阅读*/
+
+#wenzhang_yuedu {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+#wenzhang_yuedu h2 {
+    text-align: center;
+}
+
+#wenzhang_yuedu .date {
+    text-align: center;
+    font-size: 0.8em;
+    color: #999;
+}
+
+#wenzhang_text {
+    margin-top: 20px;
+    width: 960px;
+    overflow: auto;
+}
+
+#wenzhang_text p {
+    text-indent: 2em;
+    margin-bottom: 1em;
+}
+
+#wenzhang_text p img {
+    display: block;
+    max-width: 960px;
+}
+
+
+/*404*/
+
+#error_404 #footer {
+    position: relative;
+}
+
+#error_404 #dec {
+    background: #F09A2B url(../images/error_404.png) no-repeat 50% bottom;
+    height: 580px;
+    margin-top: -1px;
+}
+
+#wrap {
+    min-height: 100%;
+    position: relative;
+    _height: 100%;
+}
+
+#error_404 #holder {
+    padding-bottom: 0;
+}
+
+#error_404 #footer {
+    position: relative;
+}
+
+
+/*注册*/
+
+#zhuce {
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+#zhuce table {
+    margin-left: 160px;
+}
+
+#zhuce .input_text {
+    width: 240px;
+}
+
+
+/*输入域样式*/
+
+#zhuce #yanzhengma {
+    width: 150px;
+    display: inline;
+    margin-right: 10px;
+}
+
+#zhuce #randstr {
+    position: absolute;
+    cursor: pointer;
+}
+
+#zhuce #btn {
+    width: 252px;
+}
+
+#zhuce #loading {
+    display: none;
+    margin-left: 90px;
+}
+
+#shihuiyuan {
+    border-left: 1px solid #eee;
+    padding: 100px 0;
+    text-align: center;
+    width: 360px;
+    float: right;
+    margin-top: -30px;
+}
+
+#shihuiyuan p {
+    padding-bottom: 10px;
+}
+
+#shihuiyuan .radius {
+    background-color: #F09A2B;
+    border: none;
+    padding: 10px 50px;
+    color: #fff;
+    font-size: 1em;
+}
+
+
+/*注册成功*/
+
+#zhuce_check {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 80px 0;
+}
+
+#zhuce_check #result {
+    padding: 12px 0 50px 85px;
+    width: 220px;
+    margin: 0 auto;
+}
+
+#zhuce_check #result.success {
+    background: url(../images/zccg_tick.png) no-repeat;
+}
+
+#zhuce_check #result.fail {
+    background: url(../images/zcsb_tick.png) no-repeat;
+}
+
+#zhuce_check #result strong {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#zhuce_check #result p {
+    font-size: 1em;
+    line-height: 14px;
+}
+
+#zhuce_check .radius {
+    background-color: #F09A2B;
+    border: none;
+    padding: 10px 50px;
+    color: #fff;
+    font-size: 1em;
+}
+
+
+/*登录*/
+
+#denglu #dec {
+    background-color: #FFAE1F;
+    margin-top: -1px;
+}
+
+#denglu #dec .container {
+    background: url(../images/dl_pic.png) no-repeat;
+    min-height: 546px;
+}
+
+#denglu #holder {
+    padding-bottom: 0;
+}
+
+#denglu #footer {
+    background-color: #fff;
+    color: #666;
+    position: relative;
+}
+
+#denglu #footer a {
+    color: #666;
+}
+
+
+/*登录表单*/
+
+#denglu_form {
+    float: right;
+    background-color: #fff;
+    width: 390px;
+    margin: 45px 0 0;
+    position: relative;
+}
+
+#denglu_form strong {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    font-weight: 500;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+#denglu_form table.format {
+    margin: 20px 0 20px 10px;
+}
+
+#denglu_form form {
+    display: block;
+    padding: 10px 0 20px 20px;
+}
+
+#denglu_form .input_text {
+    width: 240px;
+}
+
+
+/*输入域样式*/
+
+#denglu_form th {
+    padding: 5px 0 0;
+    width: 80px;
+    text-align: center;
+}
+
+#denglu_form th label {
+    display: block;
+    background-color: #F4F4F4;
+    border: 1px solid #eee;
+    padding: 3px 10px;
+    border-right: 0;
+}
+
+#denglu_form #yanzhengma {
+    width: 150px;
+    display: inline;
+    margin-right: 10px;
+}
+
+#denglu_form #randstr {
+    position: absolute;
+    cursor: pointer;
+}
+
+#denglu_form #btn {
+    width: 330px;
+}
+
+#denglu_form #loading {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 226px;
+}
+
+
+/*微信登录*/
+
+#login_container {
+    text-align: center;
+}
+
+
+/*找回密码*/
+
+#zhaohuimima {
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+#step {
+    text-align: center;
+    margin: 20px 0 150px 33px;
+}
+
+#step li {
+    float: left;
+    text-align: center;
+    display: inline;
+    height: 53px;
+    line-height: 53px;
+    font-size: 1.2em;
+}
+
+#step #step0 {
+    background: url(../images/zhmm_step01.png) no-repeat;
+    width: 312px;
+}
+
+#step #step1 {
+    background: url(../images/zhmm_step02.png) no-repeat;
+    width: 311px;
+}
+
+#step #step2 {
+    background: url(../images/zhmm_step03.png) no-repeat;
+    width: 309px;
+}
+
+#step #step0.cur {
+    background-image: url(../images/zhmm_step01_visited.png);
+    color: #fff;
+}
+
+#step #step1.cur {
+    background-image: url(../images/zhmm_step02_visited.png);
+    color: #fff;
+}
+
+#step #step2.cur {
+    background-image: url(../images/zhmm_step03_visited.png);
+    color: #fff;
+}
+
+#zhaohuimima form {
+    margin-left: 310px;
+}
+
+#zhaohuimima .input_text {
+    width: 240px;
+}
+
+
+/*输入域样式*/
+
+
+/*邮箱验证结果界面*/
+
+#zhaohuimima {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 80px 0;
+}
+
+#zhaohuimima #result {
+    padding: 22px 0 50px 90px;
+    margin: 0 auto;
+}
+
+#zhaohuimima #result.success {
+    width: 370px;
+    background: url(../images/mail_img.png) no-repeat;
+}
+
+#zhaohuimima #result.wrong {
+    width: 160px;
+    background: url(../images/zcsb_tick.png) no-repeat;
+}
+
+#zhaohuimima #result.fail {
+    width: 340px;
+    background: url(../images/zcsb_tick.png) no-repeat 0 10px;
+}
+
+#zhaohuimima #result strong {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#zhaohuimima #result p {
+    font-size: 1.2em;
+}
+
+#zhaohuimima #result #jishi {
+    color: #F09A2B;
+}
+
+#zhaohuimima #btn {
+    background-color: #F09A2B;
+    border: none;
+    width: 120px;
+    color: #fff;
+    font-size: 1em;
+    display: block;
+    padding: 5px 0;
+    margin: 0 auto;
+}
+
+#zhaohuimima .format #btn {
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+/*密码修改完成*/
+
+#zhaohuimima #result.wancheng {
+    background: url(../images/zccg_tick.png) no-repeat;
+    padding-top: 12px;
+    width: 350px;
+}
+
+
+/*分页*/
+
+#paging {
+    text-align: center;
+    /*clear:both;*/
+}
+
+#paging .paging_wrapper {
+    padding: 10px 0;
+}
+
+#paging .paging_wrapper span {
+    background-color: #FFF;
+    padding: 3px 8px;
+    margin: 0 3px;
+    border: 1px solid #eee;
+}
+
+#paging .paging_wrapper .current {
+    margin: 0 3px;
+    color: #fff;
+    background-color: #F09A2B;
+    border: 1px solid #F09A2B;
+}
+
+#paging .paging_wrapper .total_pages {
+    margin: 0 7px;
+    border: none;
+}
+
+
+/*客服qq*/
+
+#kefuqq {
+    position: fixed;
+    right: 0;
+    top: 179px;
+    z-index: 96;
+}
+
+#kefuqq #kefu_trigger {
+    width: 41px;
+    height: 114px;
+    background: url(../images/kefuda.png) no-repeat;
+    cursor: pointer;
+    float: left;
+}
+
+#kefuqq #kefu_panel {
+    text-align: center;
+    background-color: #fff;
+    width: 130px;
+    height: 280px;
+    float: right;
+    margin-right: -130px;
+}
+
+#kefuqq .mb0,
+#kefuqq .mb1 {
+    padding: 80px 0 0;
+    height: 60px;
+}
+
+#kefuqq .mb0 {
+    background: url(../images/kefuda.png) no-repeat -40px 0;
+    color: #63a1f2;
+}
+
+#kefuqq .mb1 {
+    background: url(../images/kefuda.png) no-repeat -40px -140px;
+    color: #fff;
+}
+
+#kefuqq .mb0 a,
+#kefuqq .mb1 a {
+    font-size: 1.2em;
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+#kefuqq a {
+    color: #63a1f2;
+}
+
+
+/*首页 用户答疑图标*/
+
+#xinshouzhinan {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    text-align: center;
+    color: #F09A2B;
+}
+
+#xinshouzhinan a {
+    margin-top: 20px;
+    display: block;
+    width: 54px;
+    height: 75px;
+}
+
+#xszy {
+    background: url(../images/xszy.png) no-repeat;
+}
+
+#xszy:hover {
+    background-image: url(../images/xszy_visited.png);
+}
+
+#yhdy {
+    background: url(../images/yhdy.png) no-repeat;
+}
+
+#yhdy:hover {
+    background-image: url(../images/yhdy_visited.png);
+}
+
+
+/*新手指南 新手指引*/
+
+#xinshouzhiyin {
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+#xinshouzhiyin h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#xinshouzhiyin h5 {
+    text-indent: 1.8em;
+}
+
+#xinshouzhiyin .neirong {
+    padding: 20px;
+}
+
+#xinshouzhiyin .neirong p {
+    text-indent: 2em;
+    margin-bottom: 1em;
+}
+
+#xinshouzhiyin .neirong p img {
+    display: block;
+}
+
+
+/*新手指南 新手指引 分类导航*/
+
+#xinshouzhiyin #daohan {
+    display: block;
+    text-align: center;
+    background-color: #fff;
+}
+
+#xinshouzhiyin #daohan li {
+    text-align: center;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 60px;
+}
+
+#xinshouzhiyin #daohan li p {
+    padding: 10px 5px 5px;
+    font-size: 1.2em;
+}
+
+
+/* 地图指引 */
+
+#dituContent {
+    width: 956px;
+    height: 462px;
+    border: #ccc solid 1px
+}
+
+.iw_poi_title {
+    color: #CC5522;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 13px;
+    white-space: nowrap
+}
+
+.iw_poi_content {
+    font: 12px arial, sans-serif;
+    overflow: visible;
+    padding-top: 4px;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word
+}

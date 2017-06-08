@@ -1,0 +1,644 @@
+#column_right {
+    margin-left: 740px;
+    width: 260px;
+}
+
+#column_left {
+    float: left;
+    width: 721px;
+}
+
+
+/*优质推荐*/
+
+#tuijian {
+    border: 1px solid #eee;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+#tuijian .extra {
+    background: #F09A2B url(../images/huo.png) no-repeat 12px 12px;
+    width: 140px;
+    font-size: 1.2em;
+    color: #fff;
+    text-indent: 45px;
+    margin-top: -1px;
+    margin-left: -1px;
+    height: 52px;
+}
+
+#tuijian_menu {
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#tuijian_menu .item {
+    text-align: center;
+    width: 120px;
+    padding: 5px 0;
+    border-left: 1px solid #eee;
+    float: left;
+    display: inline;
+    margin-left: -1px;
+}
+
+#tuijian_menu p {
+    padding-top: 10px;
+}
+
+
+/*任务类别tabs*/
+
+#task_tabs {
+    border: 1px solid #eee;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+#task_tabs li {
+    width: 140px;
+    float: left;
+    display: inline;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#task_tabs li.cur {
+    background-color: #F09A2B;
+    height: 52px;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+#task_tabs li.cur a {
+    color: #fff;
+}
+
+
+/*关注任务*/
+
+#task_guanzhu {
+    overflow: hidden;
+    padding-left: 1px;
+}
+
+#task_guanzhu .box {
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    width: 149px;
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    float: left;
+    display: inline;
+    margin-left: -1px;
+    position: relative;
+}
+
+#task_guanzhu .box div.qc {
+    background: url(../images/loading.gif) no-repeat 50% 50%;
+    height: 100px;
+}
+
+#task_guanzhu .box div.qc img.avatar {
+    border-radius: 17px;
+}
+
+#task_guanzhu .qrcode {
+    display: none;
+}
+
+#task_guanzhu .box.extra {
+    border-left: 1px solid #eee;
+}
+
+#task_guanzhu .box .dec {
+    width: 29px;
+    height: 39px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 95;
+    background: url(../images/vip_lable.png) no-repeat;
+}
+
+#task_guanzhu strong {
+    display: block;
+    height: 28px;
+}
+
+#task_guanzhu p {
+    font-size: 0.8em;
+    line-height: 16px;
+    padding-bottom: 10px;
+    color: #999;
+}
+
+#task_guanzhu p span {
+    color: #F09A2B;
+}
+
+#task_guanzhu .btn {
+    background-color: #F09A2B;
+    color: #fff;
+    width: 140px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#task_guanzhu .btn.active {
+    background: #63A2F2 url(../pic/btn_active.png) no-repeat 35px 50%;
+    text-indent: 24px;
+    cursor: default;
+}
+
+
+/*阅读任务*/
+
+#task_yuedu {
+    overflow: hidden;
+    padding-left: 1px;
+}
+
+#task_yuedu .box {
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    width: 149px;
+    padding: 15px;
+    background-color: #fff;
+    float: left;
+    display: inline;
+    margin-left: -1px;
+    position: relative;
+}
+
+#task_yuedu .box .dec {
+    width: 29px;
+    height: 39px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 95;
+    background: url(../pic/vip_lable.png) no-repeat;
+}
+
+#task_yuedu .avatar {
+    text-align: center;
+    background: url(../loading.gif) no-repeat 50% 50%;
+}
+
+#task_yuedu strong {
+    text-align: center;
+    display: block;
+}
+
+#task_yuedu p {
+    font-size: 0.8em;
+    line-height: 16px;
+    color: #999;
+    width: 130px;
+    margin: 0 auto;
+}
+
+#task_yuedu p span {
+    color: #F09A2B;
+}
+
+
+/*自由任务*/
+
+#task_ziyou {
+    overflow: hidden;
+    margin-left: -15px;
+}
+
+#task_ziyou .box {
+    border: 1px solid #eee;
+    margin: 0 0 15px 15px;
+    width: 311px;
+    padding: 5px 20px 15px;
+    background-color: #fff;
+    float: left;
+    display: inline;
+    position: relative;
+}
+
+#task_ziyou .box .dec {
+    width: 29px;
+    height: 39px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 95;
+    background: url(../pic/vip_lable.png) no-repeat;
+}
+
+#task_ziyou .task_name {
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+#task_ziyou .jifen {
+    text-align: center;
+    border-right: 1px solid #eee;
+    width: 149px;
+}
+
+#task_ziyou .shuliang {
+    width: 149px;
+    float: right;
+    text-align: center;
+}
+
+#task_ziyou .num {
+    font-size: 1.5em;
+}
+
+#task_ziyou .extra {
+    color: #F09A2B;
+}
+
+#task_ziyou .require {
+    padding: 15px 0;
+}
+
+#task_ziyou .require p {
+    float: right;
+}
+
+#task_ziyou .more {
+    text-align: center;
+    background-color: #F09A2B;
+}
+
+#task_ziyou .more a {
+    display: block;
+    color: #fff;
+    padding: 5px;
+}
+
+
+/*提示微信授权登录*/
+
+#wxsqts {
+    text-align: center;
+    border: 1px solid #eee;
+    background-color: #F4F4F4;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#wxsqts a {
+    text-decoration: underline;
+    color: #63a1f2;
+}
+
+
+/*登录框*/
+
+#hp_denglu .column_name {
+    font-size: 1.2em;
+    border-bottom: 1px solid #eee;
+    padding: 0 0 10px;
+    margin: 0 10px;
+}
+
+#hp_denglu table.format {
+    position: relative;
+    margin: 0 0 0 15px;
+}
+
+#hp_denglu table.format td {
+    padding: 20px 0 0;
+}
+
+#hp_denglu table.format .radius {
+    width: 100%;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+#hp_denglu table.format a.bgc_blue {
+    height: 39px;
+    line-height: 39px;
+    margin: 15px 0;
+}
+
+#hp_denglu .input_text {
+    width: 205px;
+}
+
+#hp_denglu #yanzhengma {
+    width: 125px;
+    display: inline;
+}
+
+#hp_denglu #loading {
+    display: none;
+    position: absolute;
+    right: -18px;
+    top: 143px;
+    left: 110px;
+}
+
+
+/*用户信息*/
+
+#profile {
+    border: 1px solid #eee;
+    padding: 10px 5px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+#info {
+    padding: 0 0 10px 10px;
+    position: relative;
+}
+
+#info .vip {
+    position: absolute;
+    z-index: 98;
+    background: url(../pic/vip.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 65px;
+    top: 58px;
+}
+
+#info #avatar {
+    float: left;
+}
+
+#info table {
+    margin-left: 90px;
+    color: #999;
+}
+
+#info table td.extra {
+    font-size: 1em;
+    padding-bottom: 5px;
+    font-weight: 600;
+    color: #000;
+}
+
+#info table td {
+    line-height: 24px;
+}
+
+#info .radius {
+    color: #fff;
+    padding: 1px 5px;
+    font-size: 0.8em;
+}
+
+
+/*帮助提示 首页*/
+
+#help {
+    cursor: help;
+}
+
+#info #help_tips {
+    display: none;
+    position: absolute;
+    width: 180px;
+    padding: 5px 0 5px 10px;
+    font-size: 0.8em;
+    line-height: 18px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    right: -25px;
+    top: -25px;
+    z-index: 98;
+    box-shadow: 0 1px 7px #eee;
+    color: #aaa;
+}
+
+#info #help_tips #dec {
+    background: url(../pic/tcc_jt.png) no-repeat;
+    z-index: 99;
+    height: 14px;
+    width: 14px;
+    display: block;
+    position: absolute;
+    bottom: -11px;
+    right: 38px;
+}
+
+#balance {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    line-height: 28px;
+}
+
+#balance .col {
+    padding: 12px 15px;
+}
+
+#balance .points {
+    float: right;
+}
+
+#balance .extra {
+    color: #F09A2B;
+    font-size: 1.5em;
+    line-height: 14px;
+}
+
+#completed {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#completed .extra {
+    color: #F09A2B;
+    font-size: 1.5em;
+}
+
+#cue {
+    background-color: #ABABAB;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    width: 90%;
+    margin: 0 auto 5px;
+}
+
+#exchange {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    padding: 10px 0;
+}
+
+
+/*兑换*/
+
+#exchange .radius {
+    padding: 5px;
+    width: 42%;
+    display: block;
+    color: #fff;
+}
+
+#exchange #chongzhi {
+    background-color: #63A2F2;
+}
+
+#exchange #tixian {
+    background-color: #F09A2B;
+    float: right;
+}
+
+
+/*实时任务播报*/
+
+#bobao {
+    border: 1px solid #eee;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    line-height: 14px;
+}
+
+#bobao .scroll {
+    height: 235px;
+    overflow: hidden;
+}
+
+#bobao .item {
+    background: url(../images/sound_img.png) no-repeat 0 50%;
+    border-top: 1px solid #eee;
+    padding: 15px 0 15px 40px;
+    margin-top: -1px;
+    overflow: hidden;
+    height: 29px;
+}
+
+#bobao .item span {
+    color: #F09A2B;
+}
+
+
+/*系统公告*/
+
+#gonggao {
+    border: 1px solid #eee;
+    padding: 0 15px;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+#gonggao .scroll {
+    height: 285px;
+    overflow: hidden;
+}
+
+#gonggao .column_name {
+    padding: 10px 0;
+    height: 30px;
+    font-size: 1.2em;
+}
+
+#gonggao .column_name .more {
+    padding: 10px;
+    background: url(../images/arrow_right.png) no-repeat 50% 50%;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    height: 30px;
+}
+
+#gonggao .item {
+    background: url(../images/dotted.png) no-repeat 0 16px;
+    border-top: 1px solid #eee;
+    line-height: 18px;
+    padding-left: 12px;
+    padding: 10px 0 10px 12px;
+}
+
+#gonggao .date {
+    color: #ccc;
+    font-size: 0.8em;
+}
+
+
+/*留言板*/
+
+#feedback {
+    border: 1px solid #eee;
+    padding: 0 15px 15px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+
+#feedback .column_name {
+    padding: 10px 0;
+    height: 30px;
+    border-bottom: 1px solid #eee;
+    font-size: 1.2em;
+}
+
+#feedback #fb_category {
+    padding: 5px 0;
+}
+
+#feedback #fb_category label {
+    background: url(../images/lyb_radio.png) no-repeat 0 50%;
+    padding-left: 16px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+#feedback #fb_category label.cur {
+    background-image: url(../images/lyb_tick.png);
+}
+
+#feedback #fb_category input {
+    display: none;
+}
+
+#leave_word {
+    position: relative;
+}
+
+#leave_word textarea {
+    width: 206px;
+    height: 86px;
+    border: 1px solid #eee;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#add_up {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: #ccc;
+}
+
+#feedback #btn {
+    background-color: #63A2F2;
+    float: right;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 1em;
+    margin-top: 10px;
+}

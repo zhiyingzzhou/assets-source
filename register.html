@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="微信导航,微信加粉,微信如何加粉,微信营销,公众号吸粉,公众号推广,公众号运营,微信运营,公众号平台">
+    <meta name="description" content="粉快来，国内公众号运营高活跃度的粉享平台，提供公众号求粉，提高阅读量，变现等一体化微信运营解决方案。">
+    <meta name="author" content="汕头市号角网络科技有限公司">
+    <title>用户注册</title>
+    <link type="image/ico" href="http://www.fenkuailai.com/favicon.ico" rel="shortcut icon" />
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="holder">
+            <div id="topbar">
+                <div class="container">
+                    <a href="http://www.fenkuailai.com/wechat/denglu" id="wxdl">微信授权登录</a> &nbsp; | &nbsp; <a href="http://www.fenkuailai.com/denglu">登录</a> &nbsp; | &nbsp; <a href="http://www.fenkuailai.com/zhuce">注册</a>
+                </div>
+            </div>
+            <div id="navi">
+                <div class="container">
+                    <a href="http://www.fenkuailai.com/welcome" id="logo"><img src="http://www.fenkuailai.com/assets/pic/logo.jpg" alt="logo" title="粉快来" width="130" height="70" /></a>
+                    <ul id="menu">
+                        <li><a href="http://www.fenkuailai.com/welcome">任务大厅</a></li>
+                        <li><a href="http://www.fenkuailai.com/fabu">发布任务</a></li>
+                        <li><a href="http://www.fenkuailai.com/tuiguang">推广合作</a></li>
+                        <li><a href="http://www.fenkuailai.com/lianxi">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container"><br/>
+                <div id="zhuce" class="solid">
+                    <div class="column_name">用户注册</div>
+                    <div id="shihuiyuan">
+                        <p>已是会员？立即登录</p><a href="http://www.fenkuailai.com/denglu" class="radius">登录</a></div>
+                    <form action="http://www.fenkuailai.com/zhuce/check" id="form" method="post" accept-charset="utf-8">
+                        <table class="format">
+                            <tr>
+                                <th>账 &nbsp; 号</th>
+                                <td><input type="text" name="zhanghao" value="" id="zhanghao" class="input_text" placeholder="请输入注册邮箱" /></td>
+                            </tr>
+                            <tr>
+                                <th>密 &nbsp; 码</th>
+                                <td><input type="text" name="mima" id="mima" class="input_text" placeholder="请输入密码" value="" /></td>
+                            </tr>
+                            <tr>
+                                <th>验证码</th>
+                                <td><input type="text" name="yanzhengma" id="yanzhengma" class="input_text" placeholder="请输入验证码" /><span id="shuaxin"><img id="randstr" src="http://www.fenkuailai.com/attached/captcha/1496957764.1122.jpg" style="width: 80; height: 36; border: 0;" alt=" " /></span><img
+                                        src="http://www.fenkuailai.com/assets/sloading.gif" alt="img" id="loading" /></td>
+                            </tr>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <td><input type="submit" value="注册" id="btn" class="radius" /></td>
+                            </tr>
+                        </table>
+                        <em style="margin-left:160px;color:#c5c5c5;"><img src="http://www.fenkuailai.com/assets/pic/help.png" alt="img" /> 请填写真实有效的用户信息，无效的用户信息将影响您的提现申请。</em>
+                    </form><br/>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!--container-->
+        </div>
+        <!--mainbody-->
+        <div class="clear"></div>
+        <div id="footer">
+            <div id="copyright" class="container">
+                Copyright &copy;2017 &nbsp;汕头市号角网络科技有限公司 &nbsp; &nbsp; 粤ICP备15107486号-3
+            </div>
+        </div>
+    </div>
+    <!--wrap-->
+    <div id="kefuqq">
+        <div id="kefu_panel">
+            <div class="mb0"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2418189748&site=qq&menu=yes">联系客服</a>QQ:2418189748</div>
+            <div class="mb1"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1294453357&site=qq&menu=yes">商务合作</a>QQ:1294453357</div>
+        </div>
+        <div id="kefu_trigger"></div>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#kefu_trigger').click(function() {
+                $(this).hide(0);
+                $('#kefu_panel').animate({
+                    "margin-right": 0
+                }, 200);
+            });
+            $('#kefu_panel').mouseleave(function() {
+                setTimeout(function() {
+                    $('#kefu_panel').animate({
+                        "margin-right": "-130px"
+                    }, 200, function() {
+                        $('#kefu_trigger').fadeIn(50)
+                    });
+                }, 2e3)
+            });
+        })
+    </script>
+</body>
+<script>
+    // var _hmt = _hmt || [];
+    // (function() {
+    //     var hm = document.createElement("script");
+    //     hm.src = "//hm.baidu.com/hm.js?a9eb7793a11a2fa377bf341470095be2";
+    //     var s = document.getElementsByTagName("script")[0];
+    //     s.parentNode.insertBefore(hm, s);
+    // })();
+</script>
+<script type="text/javascript">
+    $(function() {
+        $('#shuaxin').bind('click', function() {
+            $('#shuaxin').load('http://www.fenkuailai.com/captcha');
+        });
+        $('#yanzhengma').bind('input propertychange', function() {
+            var m = $(this).val();
+            if (m.length == 4) {
+                $('#loading').show();
+                $.ajax({
+                    url: "http://www.fenkuailai.com/zhuce/check_yzm",
+                    type: "POST",
+                    dataType: "JSON",
+                    data: {
+                        "yzm": m
+                    },
+                    success: function(data) {
+                        $('#loading').attr('src', data.src);
+                    }
+                });
+            } else {
+                $('#loading').hide();
+            }
+        });
+    });
+</script>
+
+</html>
